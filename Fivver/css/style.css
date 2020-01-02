@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    height: 580px;
+}
+.header-search {
+    display: block;
+    padding: 200px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-search input {
+    padding-right: 7px;
+    border-color: #ddd;
+    padding-left: 44px;
+    width: 450px;
+    height: 48px;
+    font-size: 15px;
+    line-height: 16px;
+    background-color: #fff;
+    color: #7a7d85;
+    border: 1px #b5b6ba solid;
+    margin: 0;
+}
+.header-search button {
+    height: 48px;
+    padding: 0 24px;
+    border-radius: 0 3px 3px 0;
+    background-color: #1dbf73;
+    line-height: 16px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid transparent;
+    margin-top: 4px;
+    margin-left: -4px;
+}
+
+/*Slider*/
+.slick-prev, .slick-next {
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    border-radius: 30px;
+}
+.slick-arrow.slick-prev:after {
+    background-position: 0 -32px;
+}
+.slick-arrow.slick-next:after {
+    background-position: 0 -48px;
+}
+.slick-arrow:before {
+    content: "";
+}
+.slick-arrow:after {
+    content: "";
+    display: inline-block;
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/arrows.a8b0bad.svg) no-repeat;
+    background-size: 16px 64px;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+}
+.slick-arrow.slick-prev {
+    left: -20px;
+}
+.slick-arrow.slick-next {
+    right: -20px;
+}
