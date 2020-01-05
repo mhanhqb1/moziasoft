@@ -24,3 +24,14 @@
 .rate > label.active{
     color: #ffc700 !important;
 }
+a.sub-title {
+    float: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+}
+.logged-out-homepage .categories-list li {
+    width: 24.5%;
+    margin-left: 0;
+    margin-right: 8px;
+}

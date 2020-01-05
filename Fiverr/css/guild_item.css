@@ -80,7 +80,8 @@ margin: 0 auto;
     color:#555
 }
 .logged-out-homepage .fiverr-guides{
-    position:relative
+    position:relative;
+    max-width: 100%;
 }
 .logged-out-homepage .fiverr-guides h2{
     display:inline-block;
