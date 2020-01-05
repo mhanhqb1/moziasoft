@@ -48,9 +48,9 @@
     -o-transition:opacity .3s ease-in-out;
     transition:opacity .3s ease-in-out;
     border-radius: 50%;
-width: 150px;
-height: 150px;
-margin: 0 auto;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
 }
 .logged-out-homepage .fiverr-guides .guide img:hover{
     opacity:.85

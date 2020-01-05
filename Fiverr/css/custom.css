@@ -35,3 +35,9 @@ a.sub-title {
     margin-left: 0;
     margin-right: 8px;
 }
+.fiverr-guides > h2 {
+    max-width: 1400px;
+    display: block !important;
+    margin: 0 auto !important;
+    padding-left: 30px;
+}
