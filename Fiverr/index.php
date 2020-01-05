@@ -54,19 +54,15 @@ $version = time();
                             <?php require_once 'body_guild.php'; ?>
 
                             <!--Videos-->
-                            <div class="testimonials" style="">
-                                <div class="testimonial">
-                                    <div class="text-content">
-                                        <p>"When I use Fiverr, I don’t have to go through the hassle of contracts, negotiations, logistics and financials. Fiverr takes away the risk of working with the wrong freelancer."</p><span>Karen Cohen, Global Product Marketing Manager</span><img alt="Company logo" src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/appsflyer-logo.d1958be.png" loading="lazy">
-                                    </div>
-                                    <div class="video-modal">
-                                        <div class="picture-wrapper">
-                                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/EjTTelvJAyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                            <?php require_once 'body_video.php'; ?>
+                            
+                            <!--Product scroll items-->
+                            <?php require_once 'body_slider2.php'; ?>
+                            
+                            <!--Product scroll items-->
+                            <?php require_once 'body_slider3.php'; ?>
+                            
+                            
                             <!--Sell skills-->
                             <div class="signup">
                                 <img alt="A notebook and a cellular phone" src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/general_assets/logged_out_homepage/assets/signup/1440-cta2x.jpg" loading="lazy">
