@@ -1,5 +1,6 @@
 <?php
 $version = time();
+require_once 'auth.php';
 ?>
 <html lang="en" class="">
     <head>
