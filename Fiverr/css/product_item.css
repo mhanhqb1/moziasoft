@@ -1,0 +1,132 @@
+.logged-out-homepage .see-more-link{
+    padding:0 0 20px;
+    color:#00698c;
+    font-size:15px;
+    line-height:23px;
+    display:block
+}
+.rate {
+    float: left;
+    height: auto;
+    padding: 0 0px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.slider-package {
+   height:400px !important;
+}
+.logged-out-homepage .see-more-link:after{
+    content:"\f105";
+    font-family:FontAwesome,ProximaNova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left:8px;
+    display:inline-block
+}
+@media only screen and (min-width:900px){
+    .logged-out-homepage .see-more-link{
+        position:absolute;
+        right:30px;
+        top:0;
+        padding-top:16px
+    }
+}
+.logged-out-homepage .made-on-fiverr .slick-slide{
+    padding-bottom:5px
+}
+.logged-out-homepage .made-on-fiverr .project-card{
+    -webkit-box-shadow:0 1px 5px 1px rgba(0,0,0,.15);
+    box-shadow:0 1px 5px 1px rgba(0,0,0,.15);
+    border-radius:4px
+}
+.logged-out-homepage .made-on-fiverr .project-card .gig-image{
+    height:237px;
+    width:100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    border-radius:4px 4px 0 0;
+    -webkit-transition:opacity .3s ease-in-out;
+    -o-transition:opacity .3s ease-in-out;
+    transition:opacity .3s ease-in-out
+}
+.logged-out-homepage .made-on-fiverr .project-card .gig-image:hover{
+    opacity:.85
+}
+.logged-out-homepage .made-on-fiverr .project-card .project-info{
+    display: block;
+    padding:10px 0 15px 20px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+.logged-out-homepage .made-on-fiverr .project-card  .sellerimage img{
+    height:36px;
+    width:36px;
+    border-radius:50%;
+    padding-top:2px;float:left;
+    margin-left: 20px;
+}
+.logged-out-homepage .made-on-fiverr .project-card .profilehead{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.logged-out-homepage .made-on-fiverr .project-card  .sellerimage .puname{
+  padding-left: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;line-height: 36px;
+    float: left;
+}
+.logged-out-homepage .made-on-fiverr .project-card .project-info .seller-image img{
+    height:36px;
+    width:36px;
+    border-radius:50%;
+    padding-top:2px;
+}
+.logged-out-homepage .made-on-fiverr .project-card .project-info .gig-info{
+    padding-left:12px;
+    font-size:14px;
+    line-height:20px
+}
+.logged-out-homepage .made-on-fiverr .project-card .project-info .gig-info a{
+    color:#0e0e0f;display: block;
+}
+.logged-out-homepage .made-on-fiverr{
+    position:relative
+}
+.logged-out-homepage .made-on-fiverr h2{
+    padding:0 0 20px
+}
+.logged-out-homepage .made-on-fiverr .see-more-link{
+    padding-top:16px
+}

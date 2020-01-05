@@ -10,12 +10,11 @@
             <a class="navbar-brand" href="#">Project name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Default</a></li>
-                <li><a href="#">Static top</a></li>
-                <li class="active"><a href="#">Fixed top <span class="sr-only">(current)</span></a></li>
-            </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Default</a></li>
+              <li><a href="#">Static top</a></li>
+              <li class="active"><a href="#">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>

@@ -1,0 +1,110 @@
+.logged-out-homepage .see-more-link{
+    padding:0 0 20px;
+    color:#00698c;
+    font-size:15px;
+    line-height:23px;
+    display:block
+}
+.fiverr-guides{
+  background: #f3f3f3;
+    padding-top: 30px !important;
+}
+.logged-out-homepage .see-more-link:after{
+    content:"\f105";
+    font-family:FontAwesome,ProximaNova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left:8px;
+    display:inline-block
+}
+@media only screen and (min-width:900px){
+    .logged-out-homepage .see-more-link{
+        position:absolute;
+        right:30px;
+        top:0;
+        padding-top:16px
+    }
+}
+.logged-out-homepage .fiverr-guides .guide{
+    display:block;text-align: center;
+}
+.logged-out-homepage .fiverr-guides .guide:not(:last-child){
+    padding-bottom:32px
+}
+.fiverr-guides .wrapper{max-width: 900px !important;margin: 0 auto;}
+@media only screen and (min-width:900px){
+    .logged-out-homepage .fiverr-guides .guide{
+        display:inline-block
+    }
+    .logged-out-homepage .fiverr-guides .guide:not(:last-child){
+        margin-right:25px
+    }
+    .logged-out-homepage .fiverr-guides .guide .content p{max-width: 220px;}
+}
+.logged-out-homepage .fiverr-guides .guide img{
+    width:100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    padding-bottom:2px;
+    -webkit-transition:opacity .3s ease-in-out;
+    -o-transition:opacity .3s ease-in-out;
+    transition:opacity .3s ease-in-out;
+    border-radius: 50%;
+width: 150px;
+height: 150px;
+margin: 0 auto;
+}
+.logged-out-homepage .fiverr-guides .guide img:hover{
+    opacity:.85
+}
+@media only screen and (min-width:900px){
+    .logged-out-homepage .fiverr-guides .guide img{
+        padding-bottom:16px
+    }
+}
+.logged-out-homepage .fiverr-guides .guide .content{
+    font-size:15px;
+    line-height:23px;
+    padding-top:6px
+}
+.logged-out-homepage .fiverr-guides .guide .content h6{
+    color:#0e0e0f;
+    font-size:15px;
+    line-height:150%
+}
+@media only screen and (min-width:900px){
+    .logged-out-homepage .fiverr-guides .guide .content h6{
+        font-size:17px;
+        padding-bottom:2px
+    }
+}
+.logged-out-homepage .fiverr-guides .guide .content p{
+    color:#555
+}
+.logged-out-homepage .fiverr-guides{
+    position:relative
+}
+.logged-out-homepage .fiverr-guides h2{
+    display:inline-block;
+    padding-bottom:20px
+}
+@media only screen and (min-width:900px){
+    .logged-out-homepage .fiverr-guides h2{
+        padding-bottom:24px
+    }
+}
+.logged-out-homepage .fiverr-guides a:hover{
+    text-decoration:none
+}
+.logged-out-homepage .fiverr-guides .wrapper{
+    padding-bottom:20px;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between
+}
+@media only screen and (min-width:900px){
+    .logged-out-homepage .fiverr-guides .wrapper{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        padding-bottom:0
+    }
+}
