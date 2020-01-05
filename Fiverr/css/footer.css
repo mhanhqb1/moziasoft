@@ -1119,7 +1119,8 @@ body[class*=modal-open]{
     }
 }
 .site-footer .legal .logo{
-    background:transparent url(https://npm-assets.fiverrcdn.com/assets/@fiverr-private/footer/logo.313c747.svg) no-repeat 0 0;
+    background:transparent url('../imgs/logo.png') no-repeat 0 0;
+    background-size: contain;
     display:block;
     width:90px;
     height:25px;
