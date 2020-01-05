@@ -1,0 +1,20 @@
+.logged-out-homepage .hero .hero-background {
+    display: none !important;
+}
+.logged-out-homepage .hero .header {
+    padding: 0;
+    margin: 0 auto;
+}
+.logged-out-homepage .hero .hero-main {
+    padding-top: 170px;
+}
+.responsive-header-search .searchbox-wrap:after {
+    font: 14px FontAwesome !important;
+    content: "\f002";
+    color: #999;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 11px;
+    left: 10px;
+}

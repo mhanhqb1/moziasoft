@@ -6,7 +6,7 @@ $version = time();
         <link rel="shortcut icon" href="images/favicon.png" type="image/png">
         <meta charset="utf-8">
         <title>
-            Fiverr
+            GIG8
         </title>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0" name="viewport">
         <style>
@@ -26,6 +26,7 @@ $version = time();
         <link rel="stylesheet" type="text/css" href="css/guild_item.css" media="all">
         <link rel="stylesheet" type="text/css" href="css/sell_skills.css" media="all">
         <link rel="stylesheet" type="text/css" href="css/footer.css" media="all">
+        <link rel="stylesheet" type="text/css" href="css/custom.css?<?php echo $version;?>" media="all">
         <!--<link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>-->
 
@@ -34,114 +35,9 @@ $version = time();
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/slick.min.js"></script>
     </head>
-    <body class="body-home responsive-grid pro-experience" data-logged-in="false">
-        <div id="Sidebar-component" class="">
-            <nav data-reactroot="" class="site-sidebar sidebar-package">
-                <header class="sidebar-header">
-                    <a class="fit-button fit-button-color-green fit-button-fill-full fit-button-size-medium js-open-popup-join" href="/join">Join Fiverr</a>
-                </header>
-                <div class="sidebar-menu">
-                    <a class="sidebar-link" href="#">Sign in</a>
-                    <div class="sidebar-categories">
-
-                    </div>
-                </div>
-            </nav>
-        </div>
+    <body class="body-home responsive-grid pro-experience">
         <div id="main-wrapper" class="">
-            <div id="main-wrapper-header">
-                <div class="page-light-overlay js-page-light-overlay hidden"></div>
-                <div class="main-flashes"></div>
-                <div id="react-app-banner"></div>
-                <div id="react-german-popup"></div>
-                <header class="base-header logged-out-homepage-header js-main-header header-search transparent-header"><!--transparent-header-->
-                    <div class="header-row">
-                        <a id="mobilemenuicon" href="#!" class=" navicon js-side-nav-trigger js-header-events" data-event-channels="mixpanel" data-mixpanel-event="CLICKED_SIDE_MENU">
-                            <img class="mobilemenuicon" src="imgs/menuicon.png" width="48"/>
-                        </a>
-                        <a href="#!" class="navicon js-side-nav-trigger js-header-events" data-event-channels="mixpanel" data-mixpanel-event="CLICKED_SIDE_MENU">
-                            Logo
-                        </a>
-                        <a href="/" class="js-gtm-event js-fiverr-logo header-logo" data-gtm-action="logo" data-gtm-event="navigation" data-gtm-label="clicked">
-                            Logo
-                        </a>
-
-                        <div class="header-search responsive-header-search">
-
-                            <form accept-charset="UTF-8" action="/search/gigs" id="search-form-nav-bar" method="get">
-                                <div style="display:none">
-                                    <input name="utf8" type="hidden" value="✓">
-                                </div>
-                                <input id="source" name="source" type="hidden" value="top-bar">
-                                <input id="locale" name="locale" type="hidden" value="en">
-
-                                <input id="search_in" name="search_in" type="hidden" value="everywhere">
-
-                                <div class="global-search js-global-search omnibox wide-omnibox  ">
-
-                                    <div class="searchbox-wrap omnibox">
-                                        <input type="search" class="text-trunc js-search-input js-report-to-aux-data" name="query" value="" maxlength="150" placeholder="Find Services" data-aux-data="search-field-clicked" autocomplete="off">
-                                    </div>
-                                    <a href="#!" class="btn-lrg-standard btn-submit js-search-submit">
-                                        Search
-                                    </a>
-                                    <span class="loading"></span>
-                                    <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 600px; z-index: 9999;"></div>
-                                </div>
-                                <input type="hidden" name="search-autocomplete-original-term" value="">
-                                <input type="hidden" name="search-autocomplete-original-term" value="">
-                            </form>
-
-                        </div>
-
-                        <nav class="header-nav guest-nav">
-                            <ul>
-
-                                <li class="hint--bottom js-mark pro-home">
-                                    <a href="/pro?source=top_nav" class="js-header-events" data-event-channels="bigquery,mixpanel" data-header-type="buying" data-event-type="go_to_fiverr_pro" data-mixpanel-event="CLICKED_GO_TO_FIVERR_PRO">
-                                        Fiverr Pro
-                                    </a>
-                                </li>
-
-                                <li class="header-start-selling">
-                                    <a class=" js-header-events" data-event-channels="bigquery,mixpanel" data-event-type="start_selling" data-mixpanel-event="CLICKED_BECOME_A_SELLER" href="https://www.fiverr.com/start_selling" rel="nofollow">Become a Seller</a>
-                                </li>
-                                <li class="header-login">
-                                    <a href="https://www.fiverr.com/login" class="js-open-popup-login js-header-events" data-event-channels="mixpanel,bigquery" data-event-type="sign_in.button_click_header" data-mixpanel-event="CLICKED_SIGN_IN">
-                                        Sign In
-                                    </a>
-                                </li>
-                                <li class="header-join">
-                                    <a href="https://www.fiverr.com/join" class="js-open-popup-join js-header-events" data-event-channels="bigquery" data-event-type="registration.button_click_header" data-source-component="Header">
-                                        Join
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-
-                    </div>
-                    <div class="js-category-nav categories_menu-package">
-                        <div id="CategoriesMenu-component">
-                            <nav class="categories-menu-package" data-reactroot="">
-                                <button class="left" disabled=""><i class="fa fa-chevron-left"></i></button>
-                                <button class="right"><i class="fa fa-chevron-right"></i></button>
-                                <ul class="categories">
-                                    <li class=""><a href="#">Graphics &amp; Design</a></li>
-                                    <li class=""><a href="#">Digital Marketing</a></li>
-                                    <li class=""><a href="#">Writing &amp; Translation</a></li>
-                                    <li class=""><a href="#">Video &amp; Animation</a></li>
-                                    <li class=""><a href="#">Music &amp; Audio</a></li>
-                                    <li class=""><a href="#">Programming &amp; Tech</a></li>
-                                    <li class=""><a href="#">Business</a></li>
-                                    <li class=""><a href="#">Lifestyle</a></li>
-                                    <li class="multi-menu"><a>Industries<span class="fit-tag badge fit-tag-hollow-pink">new</span></a></li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                    </div>
-                </header>
-            </div>
+            <?php require_once 'header.php'; ?>
             <div class="main-content js-main-content">
                 <div id="js-bomba-message" class="js-bomba-message"><!-- react-empty: 1 --></div>
                 <div class="mp-box logged_out_homepage_perseus">
