@@ -18,3 +18,9 @@
     top: 11px;
     left: 10px;
 }
+.rate > input:checked ~ label {
+    color: #ffc700 !important;
+}
+.rate > label.active{
+    color: #ffc700 !important;
+}
