@@ -9,7 +9,7 @@
                 <img class="mobilemenuicon" src="imgs/menuicon.png" width="48"/>
             </a>
             <a href="/" class="js-gtm-event js-fiverr-logo header-logo">
-                <img src="imgs/logo.png" width="84"/>
+                <img src="imgs/logo2.png" width="84"/>
             </a>
             <div class="header-search responsive-header-search">
                 <form accept-charset="UTF-8" action="/" id="search-form-nav-bar" method="get">

@@ -1,6 +1,7 @@
 <?php
 $version = time();
 require_once 'auth.php';
+//6cbcd6
 ?>
 <html lang="en" class="">
     <head>

@@ -533,26 +533,26 @@ body[class*=modal-open]{
 }
 .footer-package .fit-button.fit-button-color-green{
     display:inline-block;
-    background:#1dbf73;
+    background:#6cbcd6;
     color:#fff
 }
 .footer-package .fit-button.fit-button-color-green:hover{
-    background:#19a463
+    background:#6cbcd6
 }
 .footer-package .fit-button.fit-button-color-green:active{
     background:#168a53
 }
 .footer-package .fit-button.fit-button-color-green.fit-button-fill-ghost{
     background:none;
-    border-color:#1dbf73;
-    color:#1dbf73
+    border-color:#6cbcd6;
+    color:#6cbcd6
 }
 .footer-package .fit-button.fit-button-color-green.fit-button-fill-ghost:active,.footer-package .fit-button.fit-button-color-green.fit-button-fill-ghost:hover{
     color:#fff
 }
 .footer-package .fit-button.fit-button-color-green.fit-button-fill-ghost:hover{
-    border-color:#19a463;
-    background:#19a463
+    border-color:#6cbcd6;
+    background:#6cbcd6
 }
 .footer-package .fit-button.fit-button-color-green.fit-button-fill-ghost:active{
     border-color:#168a53;
@@ -1119,7 +1119,7 @@ body[class*=modal-open]{
     }
 }
 .site-footer .legal .logo{
-    background:transparent url('../imgs/logo.png') no-repeat 0 0;
+    background:transparent url('../imgs/logo2.png') no-repeat 0 0;
     background-size: contain;
     display:block;
     width:90px;

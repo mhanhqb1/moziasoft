@@ -917,26 +917,26 @@ body[class*=modal-open]{
 }
 .logged_out_homepage_perseus .fit-button.fit-button-color-green{
     display:inline-block;
-    background:#1dbf73;
+    background:#6cbcd6;
     color:#fff
 }
 .logged_out_homepage_perseus .fit-button.fit-button-color-green:hover{
-    background:#19a463
+    background:#6cbcd6
 }
 .logged_out_homepage_perseus .fit-button.fit-button-color-green:active{
     background:#168a53
 }
 .logged_out_homepage_perseus .fit-button.fit-button-color-green.fit-button-fill-ghost{
     background:none;
-    border-color:#1dbf73;
-    color:#1dbf73
+    border-color:#6cbcd6;
+    color:#6cbcd6
 }
 .logged_out_homepage_perseus .fit-button.fit-button-color-green.fit-button-fill-ghost:active,.logged_out_homepage_perseus .fit-button.fit-button-color-green.fit-button-fill-ghost:hover{
     color:#fff
 }
 .logged_out_homepage_perseus .fit-button.fit-button-color-green.fit-button-fill-ghost:hover{
-    border-color:#19a463;
-    background:#19a463
+    border-color:#6cbcd6;
+    background:#6cbcd6
 }
 .logged_out_homepage_perseus .fit-button.fit-button-color-green.fit-button-fill-ghost:active{
     border-color:#168a53;
@@ -1448,7 +1448,7 @@ body[class*=modal-open]{
     height:24px
 }
 .gig-wrapper .seller-image .is-online{
-    background:#1dbf73;
+    background:#6cbcd6;
     width:7px;
     height:7px;
     z-index:10;
@@ -1904,7 +1904,7 @@ body[class*=modal-open]{
     padding-bottom:60%
 }
 .gig-wrapper:hover h3 a{
-    color:#1dbf73
+    color:#6cbcd6
 }
 .gig-wrapper:hover.pro-experience h3 a{
     color:#1fd0b6
@@ -2258,7 +2258,7 @@ body[class*=modal-open]{
 }
 .gig-wrapper.card .studio-popover-wrapper .studio-popover-content .studio-services ul li i{
     margin:4px 12px 0 0;
-    color:#1dbf73
+    color:#6cbcd6
 }
 .gig-wrapper.card .studio-popover-wrapper .studio-popover-content:before{
     content:"";
@@ -2883,7 +2883,7 @@ body[class*=modal-open]{
     height:16px;
     width:16px;
     padding-right:12px;
-    color:#1dbf73;
+    color:#6cbcd6;
     vertical-align:middle
 }
 .logged-out-homepage .selling-proposition .video-modal{
@@ -2940,7 +2940,7 @@ body[class*=modal-open]{
 }
 .logged-out-homepage .categories-list li>a:hover:after{
     padding:0 20px 8px;
-    border-color:#1dbf73
+    border-color:#6cbcd6
 }
 .logged-out-homepage .categories-list li>a img{
     display:block;

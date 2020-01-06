@@ -47,8 +47,8 @@
         box-sizing:border-box
     }
     .base-header.logged-out-homepage-header.transparent-header .guest-nav .header-join a:hover{
-        background-color:#1dbf73;
-        border:1px #1dbf73 solid;
+        background-color:#6cbcd6;
+        border:1px #6cbcd6 solid;
         color:#fff
     }
     .base-header.logged-out-homepage-header.transparent-header .category-list,.base-header.logged-out-homepage-header.transparent-header .header-search{

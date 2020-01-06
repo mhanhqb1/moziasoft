@@ -60,7 +60,7 @@
     width:5px;
     height:5px;
     border-radius:50%;
-    background-color:#1dbf73;
+    background-color:#6cbcd6;
     margin-left:3px
 }
 .user-profile-image .user-pict{
@@ -383,9 +383,9 @@
     background-position:-108px 0
 }
 .site-sidebar .sidebar-header .user-info .sidebar-balance a,.site-sidebar .sidebar-header .user-info .sidebar-balance p{
-    color:#1dbf73;
+    color:#6cbcd6;
     font-weight:600;
-    border:1px solid #1dbf73;
+    border:1px solid #6cbcd6;
     border-radius:4px;
     display:inline-block;
     padding:4px 8px
@@ -455,26 +455,26 @@
 }
 .sidebar-package .fit-button.fit-button-color-green{
     display:inline-block;
-    background:#1dbf73;
+    background:#6cbcd6;
     color:#fff
 }
 .sidebar-package .fit-button.fit-button-color-green:hover{
-    background:#19a463
+    background:#6cbcd6
 }
 .sidebar-package .fit-button.fit-button-color-green:active{
     background:#168a53
 }
 .sidebar-package .fit-button.fit-button-color-green.fit-button-fill-ghost{
     background:none;
-    border-color:#1dbf73;
-    color:#1dbf73
+    border-color:#6cbcd6;
+    color:#6cbcd6
 }
 .sidebar-package .fit-button.fit-button-color-green.fit-button-fill-ghost:active,.sidebar-package .fit-button.fit-button-color-green.fit-button-fill-ghost:hover{
     color:#fff
 }
 .sidebar-package .fit-button.fit-button-color-green.fit-button-fill-ghost:hover{
-    border-color:#19a463;
-    background:#19a463
+    border-color:#6cbcd6;
+    background:#6cbcd6
 }
 .sidebar-package .fit-button.fit-button-color-green.fit-button-fill-ghost:active{
     border-color:#168a53;
@@ -735,7 +735,7 @@
 }
 .site-sidebar .sidebar-link.highlight{
     font-weight:600;
-    color:#1dbf73
+    color:#6cbcd6
 }
 .site-sidebar .sidebar-link.pro-highlight{
     font-weight:600;
