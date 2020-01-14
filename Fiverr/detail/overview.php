@@ -23,7 +23,7 @@
                 <span class="total-rating-out-five">5.0</span>
                 <span class="total-rating">(65)</span>
             </span>
-            <span class="orders-in-queue">| 2 Orders in Queue</span>
+            <span class="orders-in-queue">2 Orders in Queue</span>
         </div>
     </div>
 </div>

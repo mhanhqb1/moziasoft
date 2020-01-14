@@ -41,3 +41,16 @@ a.sub-title {
     margin: 0 auto !important;
     padding-left: 30px;
 }
+
+.gig-page {
+    padding-top: 150px;
+}
+.gig-page-wrapper.pro-gig .gig-page .star-rating-s15 {
+    background-image: url(//assetsv2.fiverrcdn.com/assets/v2_globals/icn-master-ratings-stars-dd1e58ea1d685f280e62395e479994a3.svg),url(//assetsv2.fiverrcdn.com/assets/v2_globals/icn-master-ratings-stars-dd1e58ea1d685f280e62395e479994a3.svg),url(//assetsv2.fiverrcdn.com/assets/v2_globals/icn-master-ratings-stars-dd1e58ea1d685f280e62395e479994a3.svg),url(//assetsv2.fiverrcdn.com/assets/v2_globals/icn-master-ratings-stars-dd1e58ea1d685f280e62395e479994a3.svg),url(//assetsv2.fiverrcdn.com/assets/v2_globals/icn-master-ratings-stars-dd1e58ea1d685f280e62395e479994a3.svg);
+}
+.pro-gig .gig-page .gig-overview .seller-overview .user-info .total-rating-out-five,
+.total-rating, 
+.orders-in-queue{
+    color: #ffc100 !important;
+    font-weight: bold;
+}
