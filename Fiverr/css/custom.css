@@ -71,3 +71,32 @@ tr.description td{
 .gig-page-packages-table .package-type .price {
     font-weight: bold;
 }
+.filtering2 {
+    background: #ccc;
+    height: 300px !important;
+}
+.review-image img{
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    border-radius: 50%;
+}
+.review-content {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 230px;
+    background: #fff;
+    width: 475px;
+}
+.review-content .star-rating-s15 {
+    margin: 20px 0;
+}
+.gig-page .gig-overview .seller-overview .user-info .orders-in-queue:before {
+    color: #ffc100 !important;
+}

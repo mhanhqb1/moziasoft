@@ -37,7 +37,6 @@ require_once 'auth.php';
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/slick.min.js"></script>
-        <script type="text/javascript" src="https://npm-assets.fiverrcdn.com/assets/@fiverr/gig_page_perseus/apps/gig_page/index.8d049088d98595ed1d90.js?v=1"></script>
     </head>
     <body class="body-home responsive-grid pro-experience">
         <div id="main-wrapper" class="">
@@ -54,6 +53,7 @@ require_once 'auth.php';
                                 <?php require_once 'detail/description2.php'; ?>
                                 <?php require_once 'detail/package.php'; ?>
                                 <?php require_once 'detail/faq.php'; ?>
+                                <?php require_once 'detail/reviews.php'; ?>
                                 <?php require_once 'detail/tags.php'; ?>
                             </div>
                         </div>
@@ -112,6 +112,13 @@ require_once 'auth.php';
                                         slidesToScroll: 1
                                     }
                                 }]
+                        });
+                        
+                        $('.filtering2').slick({
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            prevArrow: '<button class="slick-prev slick-arrow" aria-label="" type="button" style="display: block;"></button>',
+                            nextArrow: '<button class="slick-next slick-arrow" aria-label="" type="button" style="display: block;"></button>'
                         });
                     });
                 </script>
