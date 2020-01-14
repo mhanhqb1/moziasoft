@@ -54,3 +54,8 @@ a.sub-title {
     color: #ffc100 !important;
     font-weight: bold;
 }
+@media only screen and (min-width: 900px) {
+    .gig-page-wrapper.pro-gig .gig-page .sidebar.poly-sticky {
+        top: 150px;
+    }
+}
