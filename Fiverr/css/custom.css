@@ -59,3 +59,15 @@ a.sub-title {
         top: 150px;
     }
 }
+.gig-page-packages-table .boolean-pricing-factor:after {
+    content: "\f164";
+    color: #6cbcd6 !important;
+    font-size: 25px;
+}
+tr.package-type td,
+tr.description td{
+    text-align: center !important;
+}
+.gig-page-packages-table .package-type .price {
+    font-weight: bold;
+}

@@ -52,6 +52,7 @@ require_once 'auth.php';
                                 <?php require_once 'detail/gallery.php'; ?>
                                 <?php require_once 'detail/description1.php'; ?>
                                 <?php require_once 'detail/description2.php'; ?>
+                                <?php require_once 'detail/package.php'; ?>
                             </div>
                         </div>
                         <div class="logged-out-homepage">
