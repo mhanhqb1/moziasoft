@@ -1,0 +1,78 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.gig-page {
+    max-width: 1304px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 32px 24px 0;
+    padding-top: 150px;
+}
+@media only screen and (min-width: 900px) {
+    .gig-page {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+}
+
+
+/*************************Sidebar****************************/
+.gig-page .sidebar {
+    width: 33.6%;
+    display: inline-block;
+    -webkit-box-ordinal-group: 21;
+    -ms-flex-order: 20;
+    order: 20;
+    padding-bottom: 32px;
+    position: sticky;
+    align-self: flex-start;
+}
+
+.gig-page .main {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 9.15%;
+    width: 57.25%;
+    -webkit-box-ordinal-group: 11;
+    -ms-flex-order: 10;
+    order: 10;
+}
+
+/*************************Breadcrumbs****************************/
+.gig-page .gig-overview .breadcrumbs {
+    padding-bottom: 10px;
+}
+.gig-page .gig-overview .breadcrumbs a {
+    color: #00698c;
+    line-height: 16px;
+}
+.gig-page .gig-overview .breadcrumbs a:not(:last-child):after {
+    content: "\f105";
+    color: #666;
+    font-family: FontAwesome,ProximaNova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 0 4px;
+    display: inline-block;
+}

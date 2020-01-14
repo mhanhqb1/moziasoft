@@ -82,7 +82,7 @@ $products = array(
             <div>
                 <div class="project-card">
                     <div class="profilehead">
-                        <a href="#" class="sellerimage" style="display:block;width: 100%;height: 56px;padding-top: 180px;background:url('<?php echo $p['image'];?>');background-repeat: no-repeat;background-size: cover;">
+                        <a href="/jobdetail.php" class="sellerimage" style="display:block;width: 100%;height: 56px;padding-top: 180px;background:url('<?php echo $p['image'];?>');background-repeat: no-repeat;background-size: cover;">
                             <img src="<?php echo $p['author_image'];?>" alt="seller profile image"/> <span class="puname"><?php echo $p['author_name'];?></span>
                         </a>
                     </div>
@@ -91,8 +91,8 @@ $products = array(
                           <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/bc8d9342a981e3e7f42c4c3e15b30e7d-1555596582200/4754a943-ba33-4953-b84a-033fd3d36350.jpg" alt="seller profile image"></a>
                         -->
                         <span class="gig-info">
-                            <a href="#"><b><?php echo $p['name'];?></b></a>
-                            <a href="#"><?php echo $p['description'];?></a>
+                            <a href="/jobdetail.php"><b><?php echo $p['name'];?></b></a>
+                            <a href="/jobdetail.php"><?php echo $p['description'];?></a>
                             <div class="rate">
                                 <input type="radio" id="star5" name="rate_<?php echo $p['id'];?>" value="5" />
                                 <label for="star5" title="text">5 stars</label>
