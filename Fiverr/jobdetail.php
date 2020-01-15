@@ -113,8 +113,15 @@ require_once 'auth.php';
                                     }
                                 }]
                         });
-                        
+
                         $('.filtering2').slick({
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            prevArrow: '<button class="slick-prev slick-arrow" aria-label="" type="button" style="display: block;"></button>',
+                            nextArrow: '<button class="slick-next slick-arrow" aria-label="" type="button" style="display: block;"></button>'
+                        });
+
+                        $('.slide-h').slick({
                             slidesToShow: 1,
                             slidesToScroll: 1,
                             prevArrow: '<button class="slick-prev slick-arrow" aria-label="" type="button" style="display: block;"></button>',
